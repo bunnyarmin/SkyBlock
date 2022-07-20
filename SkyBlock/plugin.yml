@@ -1,0 +1,16 @@
+name: SkyBlock
+main: SkyBlock\Main
+src-namespace-prefix: SkyBlock
+version: 1.0.1
+api: 4.0.0
+
+commands:
+  island:
+    description: "§6Insel Command"
+    aliases: [ "i", "is" ]
+    permission: skyblock.default.commands
+
+permissions:
+  skyblock.default.commands:
+    description: "/island"
+    default: true
